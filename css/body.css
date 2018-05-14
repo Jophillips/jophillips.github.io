@@ -133,7 +133,7 @@ p {
 
 margin: 20px;
 height: auto;
-width: 45%;
+width: 100%;
 float: left;
 }
 
@@ -479,7 +479,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#462a29', end
 
       margin: 20px;
       height: auto;
-      width: 220px;
+      width: 100%;
 
     }
 
@@ -524,8 +524,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#462a29', end
 }
 
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
+    width: 100%;
+    margin: 5%;
 }
 
     .main article {
