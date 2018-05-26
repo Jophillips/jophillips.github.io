@@ -1,17 +1,17 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Portfolio</title>
-        <meta name="description" content="">
+        <meta name="description" content="Portfolio for Joe Phillips ">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/body.css">
-  		  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  		  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
 <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
@@ -50,7 +50,7 @@ body {
 
 
 </style>
-
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -66,9 +66,11 @@ body {
 
 
 <div class="post" style="text-align: center; padding: 50px;  padding-top: 125px;">
+
           <h1 class="parallax-text">Joe Phillips</h1>
           <div class="parallax-text-secondary"> Ottawa, ON | Web Developer </div>
-          <h2 class="parallax-text"> <a href="http://stackoverflow.com/users/3187849/joeyphillips"><img src="http://jophillips.github.io/img/stackoverflow-32px.png" height="32px" width="32px"></a>  <a href="http://github.com/Jophillips"><img src="http://jophillips.github.io/img/GitHub-Mark-32px.png" height="32px" width="32px"></a> <a href="resume.pdf"><img src="http://jophillips.github.io/img/Resume-32px.png" height="32px" width="32px"></a></h2>
+
+          <h2 class="parallax-text"> | <a href="http://stackoverflow.com/users/3187849/joeyphillips"><img src="http://jophillips.github.io/img/stackoverflow-32px.png" height="32" width="32" alt="Stack Overflow"></a>  <a href="http://github.com/Jophillips"><img src="http://jophillips.github.io/img/GitHub-Mark-32px.png" height="32" width="32" alt="Github"></a> <a href="resume.pdf"><img src="http://jophillips.github.io/img/Resume-32px.png" height="32" width="32" alt="Resume"></a> | </h2>
 </div>
 
 
@@ -108,13 +110,13 @@ body {
         <div class="row center">
         <div class="post">
           <h1 class="parallax-text"> With these things! </h1> 
-           <h1 class="parallax-text"> <img src="img/HTML5_Logo.png"><img src="img/js.png"><img src="img/css3.svg" height="100" width="100"></h1>
-           <h1 class="parallax-text"> <img src="img/php-med-trans-light.gif"></h1>
+           <h1 class="parallax-text"> <img src="img/HTML5_Logo.png" alt="HTML5"><img src="img/js.png" alt="JS"><img src="img/css3.svg" height="100" width="100" alt="CSS3"></h1>
+           <h1 class="parallax-text"> <img src="img/php-med-trans-light.gif" alt="Php"> . </h1>
           </div>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/6.png" alt="Background"></div>
+    <div class="parallax"><img src="img/6.png" alt="Background">.</div>
   </div>
 
 
@@ -184,12 +186,12 @@ body {
     </body>
 
 
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 	<script src="js/viewportchecker.js"></script>
 
-<script type="text/javascript">
+<script>
 jQuery(document).ready(function() {
 	jQuery('.post').addClass("").viewportChecker({
 	    classToAdd: 'visible animated bounceInLeft', // Class to add to the elements when they are visible
