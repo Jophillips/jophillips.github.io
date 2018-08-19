@@ -93,6 +93,45 @@ body {
     height:100%;
 }
 
+
+.titlevideo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: 0;
+
+
+}
+
+
+.titlevideo video {
+    position: absolute;
+    height: 100%;
+    width: 175vh;
+    min-width: 100%;
+    min-height: 60vw;
+    object-fit: cover;
+
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+
+
+img, embed, object, audio, video {
+    max-width: 100%;
+}
+
+
+
 .tel,.tel:visited { 
     background:none; cursor:default; color: #C21; 
 } 
@@ -130,12 +169,10 @@ p {
 
 
 .project-container {
-
-
-margin: 20px;
-height: auto;
-width: 100%;
-float: left;
+  margin: 20px;
+  height: auto;
+  width: 100%;
+  float: left;
 }
 
 
@@ -177,7 +214,18 @@ footer.page-footer {
   margin: 20px;
 }
 
+.post {
 
+text-align: center; 
+padding: 0px;  
+margin-top: 25px; 
+width: 320px;  
+background-color:rgba(0, 0, 0, 0.5); 
+overflow: hidden;
+font-size: 0.75em;
+line-height: 0.75em;
+
+}
 .arrow_box {
   position: relative;
   background: #f16622;
@@ -483,6 +531,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#462a29', end
       width: 100%;
 
     }
+.post {
+  padding: 50px;  
+  font-size: 1em;
+  width: 600px;  
+  margin-top: 125px; 
+}
+
 
 /* ============
     WIDE: Menu
