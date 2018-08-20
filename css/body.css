@@ -93,6 +93,11 @@ body {
     height:100%;
 }
 
+.bodyText {
+
+padding: 10px;
+
+}
 
 .titlevideo {
     position: absolute;
@@ -116,12 +121,12 @@ body {
     min-width: 100%;
     min-height: 60vw;
     object-fit: cover;
-
+/*
   -webkit-filter: blur(2px);
   -moz-filter: blur(2px);
   -o-filter: blur(2px);
   -ms-filter: blur(2px);
-  filter: blur(2px);
+  filter: blur(2px); */
 }
 
 
@@ -226,6 +231,20 @@ font-size: 0.75em;
 line-height: 0.75em;
 
 }
+
+.postSkillSet {
+
+text-align: center; 
+padding: 0px;  
+margin-top: 0px; 
+width: 320px;  
+background-color:rgba(0, 0, 0, 0.5); 
+overflow: hidden;
+font-size: 0.75em;
+line-height: 0.75em;
+
+}
+
 .arrow_box {
   position: relative;
   background: #f16622;
@@ -475,8 +494,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#462a29', end
 }
 
 .main article {
-
-
      padding: 15px;
 }
 
@@ -531,12 +548,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#462a29', end
       width: 100%;
 
     }
+
+.bodyText {
+
+padding: 100px;
+
+}
+
 .post {
   padding: 50px;  
   font-size: 1em;
   width: 600px;  
   margin-top: 125px; 
 }
+
+.postSkillSet {
+  padding: 50px;  
+  font-size: 1em;
+  width: 600px;  
+  margin-top: 0px; 
+}
+
 
 
 /* ============
@@ -580,14 +612,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#462a29', end
 }
 
 .wrapper {
-    width: 100%;
+    width: 90%;
     margin: 5%;
 }
 
     .main article {
         float: right;
         width: 67%;
-    }
+    }, 
 
     .main aside {
         float: left;
