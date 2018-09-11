@@ -129,6 +129,35 @@ padding: 10px;
   filter: blur(2px); */
 }
 
+.highlight {
+
+
+    border: none;
+    color: white;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+
+}
+
+.highlightBlue {
+    background-color: #324470;
+}
+
+.highlightRed {
+    background-color: #A41410;
+}
+.highlightOrange {
+    background-color: #E86D1F;
+}
+.highlightGreen {
+    background-color: #269328;
+}
+
+
+
 
 
 img, embed, object, audio, video {
