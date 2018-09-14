@@ -476,16 +476,7 @@ line-height: 0.75em;
 .footer-container,
 .main aside {
 
-background: #111111; /* Old browsers */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjIlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMiUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2NyUiIHN0b3AtY29sb3I9IiMxZDFlMjEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-background: -moz-linear-gradient(-45deg, #000000 2%, #000000 2%, #1d1e21 67%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(2%,#000000), color-stop(2%,#000000), color-stop(67%,#1d1e21)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg, #000000 2%,#000000 2%,#1d1e21 67%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg, #000000 2%,#000000 2%,#1d1e21 67%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg, #000000 2%,#000000 2%,#1d1e21 67%); /* IE10+ */
-background: linear-gradient(135deg, #000000 2%,#000000 2%,#1d1e21 67%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#1d1e21',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+background: #F1F1F1; /* Old browsers */
 
 }
 
@@ -539,7 +530,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#462a29', end
 }
 
 .footer-container footer {
-    color: white;
+    color: black;
     padding: 20px 0;
         margin: 0 5%;
 
