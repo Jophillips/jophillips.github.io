@@ -78,7 +78,8 @@ a:active {
 body {
 
     -webkit-backface-visibility: hidden;
-    font: 16px/26px   'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+
 
     background: rgb(246,248,249); /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
