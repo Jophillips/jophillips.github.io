@@ -100,6 +100,7 @@ padding: 10px;
 
 }
 
+
 .titlevideo {
     position: absolute;
     top: 0;
@@ -208,6 +209,10 @@ p {
   height: auto;
   width: 100%;
   float: left;
+
+  background-color: #fff;  
+  padding:20px;   
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
 }
 
 
@@ -470,14 +475,14 @@ line-height: 0.75em;
 
 .footer-container,
 .main aside {
-    border-top: 5px solid #292929;
-    border-bottom: 5px solid #292929;
+    border-top: 0px solid #292929;
+    border-bottom: 0px solid #292929;
 }
 
 .footer-container,
 .main aside {
 
-background: #F1F1F1; /* Old browsers */
+background: #242424; /* Old browsers */
 
 }
 
@@ -532,8 +537,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#462a29', end
 
 .footer-container footer {
     color: black;
-    padding: 20px 0;
-        margin: 0 5%;
+    padding: 40px 0;
+    margin: 0 5%;
 
 }
 
