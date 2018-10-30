@@ -6,15 +6,17 @@ html {
     position:relative;
 }
 
+::selection {    
+color: #FFF;
+    background: #DD1111;
+    text-shadow: none;
+}
 ::-moz-selection {
-    background: #b3d4fc;
+    color: #FFF;
+    background: #DD1111;
     text-shadow: none;
 }
 
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
 
 
 
